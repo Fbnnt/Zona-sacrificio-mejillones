@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona de sacrificios Mejilones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+</head>
+<body>
+<!-- Barra de navegación con Flex -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+        <h1 class="navbar-brand mb-0">Zona de sacrificio Mejillones, Antofagasta</h1>
+        <div class="d-flex align-items-center">
+            <a class="btn btn-primary me-2" href="https://mejillones.cl/" target="_blank">Fuente de Información</a>
+            <a class="btn btn-secondary me-2" href="https://regionalista.cl/2018/04/tocopilla-y-mejillones-zonas-de-sacrificio/" target="_blank">Noticia</a>
+            <a class="btn btn-outline-dark me-2" href="https://www.instagram.com/munimejillones/" target="_blank">Instagram</a>
+            <a class="btn btn-outline-dark" href="https://www.facebook.com/Mejillones.cl/" target="_blank">Facebook</a>
+        </div>
+    </div>
+</nav>
+<!--Fin barra-->
+
+<!-- Inicio carrusel -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="Zona sacrificio/zona2.jpg.jpeg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="Zona sacrificio/zona2.jpg.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="Zona sacrificio/zona3.jpg.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+</div>
+<!-- Fin carrusel -->
+<title>Mapa Interactivo de Sacrificios, Mejillones</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    #map { height: 600px; }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+  var map = L.map('map').setView([-23.078, -70.418], 13); // Coordenadas de Sacrificios, Mejillones
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+  }).addTo(map);
+
+  L.marker([-23.078, -70.418]).addTo(map)
+    .bindPopup('Zona de Sacrificios en Mejillones')
+    .openPopup();
+</script>
+    <div id="info">
+        <h2>¿Por qué es una Zona de Sacrificio?</h2>
+        <p>La Zona de Sacrificio en Mejillones es conocida por su alta concentración de industrias contaminantes, como la industria química y la generación de energía. Esto ha llevado a problemas graves de contaminación del aire, suelo y agua, afectando la salud de los residentes y el ecosistema local. Las autoridades han designado esta área como zona de sacrificio debido a los impactos ambientales negativos y los riesgos para la salud pública.</p>
+        <div id="fuentes">
+            <h2>Fuentes:</h2>
+            <ul>
+                <li>Informe del Ministerio del Medio Ambiente de Chile sobre la calidad del aire en Mejillones.</li>
+                <li>Estudio de la Universidad de Antofagasta sobre los efectos de la contaminación industrial en la región.</li>
+                <li>Investigación del Centro de Ciencia del Clima y la Resiliencia (CR)2 sobre el cambio climático y la contaminación en la zona.</li>
+                <li>Entrevistas con expertos en medio ambiente y salud pública.</li>
+            </ul>
+        </div>
+    </div>
+</ul>
+<a href="https://chilesustentable.net/2017/11/denuncian-nuevo-caso-de-contaminacion-en-mejillones/" target="_blank">
+    <button> Más información sobre la Zona de Sacrificio</button>
+</a>
+</div>
+</div>
+<div id="eventos">
+    <h2>Eventos Relevantes en Mejillones:</h2>
+    <p>Mejillones ha sido escenario de varios eventos relacionados con la contaminación y la salud pública:</p>
+    <ul>
+        <li><strong>Derrame de sustancias tóxicas:</strong> En 2024, ocurrió un derrame de seis toneladas de carbón en las cercanías de Mejillones, lo que provocó una emergencia ambiental y afectó la calidad del agua y el suelo en la región.</li>
+        <li><strong>Protestas por la salud pública:</strong> En 2023, los residentes de Mejillones organizaron protestas y manifestaciones exigiendo acciones gubernamentales para abordar la contaminación industrial y proteger la salud de la población.</li>
+        <li><strong>Estudios epidemiológicos:</strong> Investigadores locales llevaron a cabo estudios epidemiológicos para evaluar los efectos de la contaminación en la salud de los residentes de Mejillones, destacando tasas más altas de enfermedades respiratorias y otros problemas de salud relacionados con la exposición a contaminantes.</li>
+    </ul>
+</div>
+<div id="analisis-geografico">
+    <h2>Análisis Geográfico:</h2>
+    <p><strong>Ubicación geográfica:</strong> Mejillones se encuentra en la costa norte de Chile, en la región de Antofagasta.</p>
+    <p><strong>Topografía y geología:</strong> La topografía y la geología de la región pueden influir en la distribución de la contaminación y en la capacidad del medio ambiente para absorber y mitigar los impactos.</p>
+    <p><strong>Clima:</strong> El clima en la región de Mejillones puede jugar un papel importante en la dispersión de contaminantes, con patrones de viento y condiciones climáticas locales que influencian la contaminación atmosférica.</p>
+    <p><strong>Recursos naturales y biodiversidad:</strong> La zona de sacrificio puede afectar los recursos naturales locales y la biodiversidad, con posibles riesgos para los cuerpos de agua, los suelos y los hábitats de flora y fauna.</p>
+    <p><strong>Impactos ambientales y sociales:</strong> Los impactos ambientales incluyen la contaminación del aire, agua y suelo, con impactos negativos en la salud humana y el ecosistema local. Socialmente, puede haber efectos en la salud de los residentes y en la calidad de vida de las comunidades locales.</p>
+    <p><strong>Regulaciones y medidas de mitigación:</strong> Las regulaciones ambientales y las medidas de mitigación pueden ser importantes para abordar los impactos de la zona de sacrificio, incluyendo tecnologías más limpias, monitoreo ambiental y participación pública.</p>
+</div>
+<div id="conclusion">
+    <h2>Conclusiones:</h2>
+    <p>La Zona de Sacrificio en Mejillones, Antofagasta, es el resultado de una alta concentración de industrias contaminantes, lo que ha generado problemas graves de contaminación del aire, suelo y agua. Esto ha afectado tanto la salud de los residentes como el ecosistema local, llevando a que las autoridades designen esta área como una zona de sacrificio. El análisis geográfico revela que factores como la ubicación geográfica, la topografía, el clima y los recursos naturales influyen en la distribución y los impactos de la contaminación en esta región. Es importante implementar regulaciones ambientales y medidas de mitigación efectivas para abordar estos problemas y proteger la salud pública y el medio ambiente.</p>
+</div>
+
+<!-- Formulario de contacto -->
+<div class="container mt-5">
+    <h2>Enviar Correo/Informacion</h2>
+    <form id="contactForm" action="send_mail.php" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="file" class="form-label">Adjuntar archivo</label>
+            <input class="form-control" type="file" id="file" name="file">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
+<!-- Bootstrap JS Bundle with Popper -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-beta2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
